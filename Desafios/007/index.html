@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio 007</title>
+</head>
+<body>
+    <h1>Desafio da Imagem flexível</h1>
+    <p>A imagem a seguir se ajustará ao tamanho da sua tela ou da aba</p>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/kanji300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/kanji750.png" type="image/png">
+        <img src="imagens/kanji1000.png" alt="Kanji_Akuma">
+    </picture>
+</body>
+</html>
